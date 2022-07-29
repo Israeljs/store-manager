@@ -169,24 +169,7 @@ O plugin do ESLint devem ser instalados no Virtual Studio Code:
 
 ---
 
-## 05 - Desenvolva testes que cubram no mínimo 10% das camadas da sua aplicação
-
-- Seus arquivos de teste devem ficar no diretório `tests/unit`, como é descrito em [Para escrever seus próprios arquivos de teste](#para-escrever-seus-própios-arquivos-de-teste);
-- Seus testes da `model` devem fazer mock do banco de dados obrigatóriamente;
-- Opcionalmente você pode parar o serviço do `MYSQL` em sua máquina. Para rodar seus teste utilize `npm run test:mocha`;
-- Antes de executar os testes da Trybe, seus testes não devem conter erros.
-
-<details close>
-  <summary>Os seguintes pontos serão avaliados</summary>
-
-  - **[Será validado que a cobertura total das linhas dos arquivos de CADA camada `models`, `services` e `controllers` é maior ou igual a 10%. Ou seja, cada uma das camadas tem de ter, ao menos, 10% de cobertura de testes.]**
-
-  <br>
-</details>
-
----
-
-## 06 - Crie endpoint para validar e cadastrar vendas
+## 03 - Endpoint para validar e cadastrar vendas
 
 - O endpoint de vendas deve ser acessível através do caminho (`/sales`);
 - As vendas enviadas devem ser salvas nas tabelas `sales` e `sales_products` do banco de dados;
@@ -259,28 +242,9 @@ O plugin do ESLint devem ser instalados no Virtual Studio Code:
   <br>
 </details>
 
-> 💬 Em caso de dúvidas, lembre-se de consultar a seção [Dicas](#dicas) e [Diagrama ER, Entidades e Scripts](#diagrama-scripts)
-
 ---
 
-## 07 - Desenvolva testes que cubram no mínimo 15% das camadas da sua aplicação
-
-- Seus arquivos de teste devem ficar no diretório `tests/unit`, como é descrito em [Para escrever seus próprios arquivos de teste](#para-escrever-seus-própios-arquivos-de-teste);
-- Seus testes da `model` devem fazer mock do banco de dados obrigatóriamente;
-- Opcionalmente você pode parar o serviço do `MYSQL` em sua máquina. Para rodar seus teste utilize `npm run test:mocha`;
-- Antes de executar os testes da Trybe, seus testes não devem conter erros.
-
-<details close>
-  <summary>Os seguintes pontos serão avaliados</summary>
-
-  - **[Será validado que a cobertura total das linhas dos arquivos de CADA camada `models`, `services` e `controllers` é maior ou igual a 15%. Ou seja, cada uma das camadas tem de ter, ao menos, 15% de cobertura de testes.]**
-
-  <br>
-</details>
-
----
-
-## 08 - Crie endpoints para listar vendas
+## 04 - Endpoints para listar vendas
 
 - O endpoint para listar vendas deve ser acessível através do caminho (`/sales`) e (`/sales/:id`);
 - Através do caminho `/sales`, todas as vendas devem ser retornadas;
@@ -341,24 +305,7 @@ O plugin do ESLint devem ser instalados no Virtual Studio Code:
 
 ---
 
-## 09 - Desenvolva testes que cubram no mínimo 20% das camadas da sua aplicação
-
-- Seus arquivos de teste devem ficar no diretório `tests/unit`, como é descrito em [Para escrever seus próprios arquivos de teste](#para-escrever-seus-própios-arquivos-de-teste);
-- Seus testes da `model` devem fazer mock do banco de dados obrigatóriamente;
-- Opcionalmente você pode parar o serviço do `MYSQL` em sua máquina. Para rodar seus teste utilize `npm run test:mocha`;
-- Antes de executar os testes da Trybe, seus testes não devem conter erros.
-
-<details close>
-  <summary>Os seguintes pontos serão avaliados</summary>
-
-  - **[Será validado que a cobertura total das linhas dos arquivos de CADA camada `models`, `services` e `controllers` é maior ou igual a 20%. Ou seja, cada uma das camadas tem de ter, ao menos, 20% de cobertura de testes.]**
-
-  <br>
-</details>
-
----
-
-## 10 - Crie endpoint para atualizar um produto
+## 05 - Endpoint para atualizar um produto
 
 - O endpoint deve ser acessível através do caminho (`/products/:id`);
 - Apenas o produto com o `id` presente na URL deve ser atualizado;
@@ -393,24 +340,7 @@ O plugin do ESLint devem ser instalados no Virtual Studio Code:
 
 ---
 
-## 11 - Desenvolva testes que cubram no mínimo 25% das camadas da sua aplicação
-
-- Seus arquivos de teste devem ficar no diretório `tests/unit`, como é descrito em [Para escrever seus próprios arquivos de teste](#para-escrever-seus-própios-arquivos-de-teste);
-- Seus testes da `model` devem fazer mock do banco de dados obrigatóriamente;
-- Opcionalmente você pode parar o serviço do `MYSQL` em sua máquina. Para rodar seus teste utilize `npm run test:mocha`;
-- Antes de executar os testes da Trybe, seus testes não devem conter erros.
-
-<details close>
-  <summary>Os seguintes pontos serão avaliados</summary>
-
-  - **[Será validado que a cobertura total das linhas dos arquivos de CADA camada `models`, `services` e `controllers` é maior ou igual a 25%. Ou seja, cada uma das camadas tem de ter, ao menos, 25% de cobertura de testes.]**
-
-  <br>
-</details>
-
----
-
-## 12 - Crie endpoint para deletar um produto
+## 06 - Endpoint para deletar um produto
 
 - O endpoint deve ser acessível através do caminho (`/products/:id`);
 - Apenas o produto com o `id` presente na URL deve ser deletado;
@@ -430,30 +360,9 @@ O plugin do ESLint devem ser instalados no Virtual Studio Code:
   <br>
 </details>
 
-> 💬 Em caso de dúvidas, lembre-se de consultar a seção [Diagrama ER, Entidades e Scripts](#diagrama-scripts)
-
 ---
 
-# Requisitos Bônus
-
-## 13 - Desenvolva testes que cubram no mínimo 30% das camadas da sua aplicação
-
-- Seus arquivos de teste devem ficar no diretório `tests/unit`, como é descrito em [Para escrever seus próprios arquivos de teste](#para-escrever-seus-própios-arquivos-de-teste);
-- Seus testes da `model` devem fazer mock do banco de dados obrigatóriamente;
-- Opcionalmente você pode parar o serviço do `MYSQL` em sua máquina. Para rodar seus teste utilize `npm run test:mocha`;
-- Antes de executar os testes da Trybe, seus testes não devem conter erros.
-
-<details close>
-  <summary>Os seguintes pontos serão avaliados</summary>
-
-  - **[Será validado que a cobertura total das linhas dos arquivos de CADA camada `models`, `services` e `controllers` é maior ou igual a 30%. Ou seja, cada uma das camadas tem de ter, ao menos, 30% de cobertura de testes.]**
-
-  <br>
-</details>
-
----
-
-## 14 - Crie endpoint para deletar uma venda
+## 07 - Endpoint para deletar uma venda
 
 - O endpoint deve ser acessível através do caminho (`/sales/:id`);
 - Apenas a venda com o `id` presente na URL deve ser deletado;
@@ -473,28 +382,9 @@ O plugin do ESLint devem ser instalados no Virtual Studio Code:
   <br>
 </details>
 
-> 💬 Em caso de dúvidas, lembre-se de consultar a seção [Diagrama ER, Entidades e Scripts](#diagrama-scripts)
-
 ---
 
-## 15 - Desenvolva testes que cubram no mínimo 35% das camadas da sua aplicação
-
-- Seus arquivos de teste devem ficar no diretório `tests/unit`, como é descrito em [Para escrever seus próprios arquivos de teste](#para-escrever-seus-própios-arquivos-de-teste);
-- Seus testes da `model` devem fazer mock do banco de dados obrigatóriamente;
-- Opcionalmente você pode parar o serviço do `MYSQL` em sua máquina. Para rodar seus teste utilize `npm run test:mocha`;
-- Antes de executar os testes da Trybe, seus testes não devem conter erros.
-
-<details close>
-  <summary>Os seguintes pontos serão avaliados</summary>
-
-  - **[Será validado que a cobertura total das linhas dos arquivos de CADA camada `models`, `services` e `controllers` é maior ou igual a 35%. Ou seja, cada uma das camadas tem de ter, ao menos, 35% de cobertura de testes.]**
-
-  <br>
-</details>
-
----
-
-## 16 - Crie endpoint para atualizar uma venda
+## 08 - Endpoint para atualizar uma venda
 
 - O endpoint deve ser acessível através do caminho (`/sales/:id`);
 - Apenas a venda com o `id` presente na URL deve ser atualizada;
@@ -542,24 +432,7 @@ O plugin do ESLint devem ser instalados no Virtual Studio Code:
 
 ---
 
-## 17 - Desenvolva testes que cubram no mínimo 40% das camadas da sua aplicação
-
-- Seus arquivos de teste devem ficar no diretório `tests/unit`, como é descrito em [Para escrever seus próprios arquivos de teste](#para-escrever-seus-própios-arquivos-de-teste);
-- Seus testes da `model` devem fazer mock do banco de dados obrigatóriamente;
-- Opcionalmente você pode parar o serviço do `MYSQL` em sua máquina. Para rodar seus teste utilize `npm run test:mocha`;
-- Antes de executar os testes da Trybe, seus testes não devem conter erros.
-
-<details close>
-  <summary>Os seguintes pontos serão avaliados</summary>
-
-  - **[Será validado que a cobertura total das linhas dos arquivos de CADA camada `models`, `services` e `controllers` é maior ou igual a 40%. Ou seja, cada uma das camadas tem de ter, ao menos, 40% de cobertura de testes.]**
-
-  <br>
-</details>
-
----
-
-## 18 - Crie endpoint products/search?q=searchTerm
+## 09 - Endpoint products/search?q=searchTerm
 
 - O endpoint deve ser acessível através do URL `/products/search`;
 - O endpoint deve ser capaz de trazer os produtos baseados no `q` do banco de dados, se ele existir;
@@ -606,35 +479,6 @@ O plugin do ESLint devem ser instalados no Virtual Studio Code:
 </details>
 
 ---
-
-## 19 - Desenvolva testes que cubram no mínimo 50% das camadas da sua aplicação
-
-- Seus arquivos de teste devem ficar no diretório `tests/unit`, como é descrito em [Para escrever seus próprios arquivos de teste](#para-escrever-seus-própios-arquivos-de-teste);
-- Seus testes da `model` devem fazer mock do banco de dados obrigatóriamente;
-- Opcionalmente você pode parar o serviço do `MYSQL` em sua máquina. Para rodar seus teste utilize `npm run test:mocha`;
-- Antes de executar os testes da Trybe, seus testes não devem conter erros.
-
-<details close>
-  <summary>Os seguintes pontos serão avaliados</summary>
-
-  - **[Será validado que a cobertura total das linhas dos arquivos de CADA camada `models`, `services` e `controllers` é maior ou igual a 50%. Ou seja, cada uma das camadas tem de ter, ao menos, 50% de cobertura de testes.]**
-
-  <br>
-</details>
-
----
-
-## 20 - Desenvolva testes que cubram no mínimo 60% das camadas da sua aplicação
-
-- Seus arquivos de teste devem ficar no diretório `tests/unit`, como é descrito em [Para escrever seus próprios arquivos de teste](#para-escrever-seus-própios-arquivos-de-teste);
-- Seus testes da `model` devem fazer mock do banco de dados obrigatóriamente;
-- Opcionalmente você pode parar o serviço do `MYSQL` em sua máquina. Para rodar seus teste utilize `npm run test:mocha`;
-- Antes de executar os testes da Trybe, seus testes não devem conter erros.
-
-<details close>
-  <summary>Os seguintes pontos serão avaliados</summary>
-
-  - **[Será validado que a cobertura total das linhas dos arquivos de CADA camada `models`, `services` e `controllers` é maior ou igual a 60%. Ou seja, cada uma das camadas tem de ter, ao menos, 60% de cobertura de testes.]**
 
   <br>
 </details>
