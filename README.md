@@ -74,7 +74,7 @@ Depois de todas as configurações acima, execute o comando abaixo para subir o 
 
   - Executar os testes unitários:
   ```sh
-    npm run test
+    npm test
   ```
 
   - Executar o linter:
