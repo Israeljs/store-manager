@@ -477,8 +477,3 @@ O plugin do ESLint devem ser instalados no Virtual Studio Code:
       ]
     ```
 </details>
-
----
-
-  <br>
-</details>
