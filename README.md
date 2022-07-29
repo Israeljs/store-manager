@@ -93,9 +93,9 @@ O plugin do ESLint devem ser instalados no Virtual Studio Code:
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 
-# Requisitos Obrigatórios
+# Endpoints da API
 
-## 01 - Crie endpoints para listar produtos
+## 01 - Endpoints para listar produtos
 
 - O endpoint para listar produtos deve ser acessível através do caminho (`/products`) e (`/products/:id`);
 - Através do caminho `/products`, todos os produtos devem ser retornados;
@@ -141,24 +141,7 @@ O plugin do ESLint devem ser instalados no Virtual Studio Code:
 
 ---
 
-## 02 - Desenvolva testes que cubram no mínimo 5% das camadas da sua aplicação
-
-- Seus arquivos de teste devem ficar no diretório `tests/unit`, como é descrito em [Para escrever seus próprios arquivos de teste](#para-escrever-seus-própios-arquivos-de-teste);
-- Seus testes da `model` devem fazer mock do banco de dados obrigatóriamente;
-- Opcionalmente você pode parar o serviço do `MYSQL` em sua máquina. Para rodar seus teste utilize `npm run test:mocha`;
-- Antes de executar os testes da Trybe, seus testes não devem conter erros.
-
-<details close>
-  <summary>Os seguintes pontos serão avaliados</summary>
-
-  - **[Será validado que a cobertura total das linhas dos arquivos de CADA camada `models`, `services` e `controllers` é maior ou igual a 5%. Ou seja, cada uma das camadas tem de ter, ao menos, 5% de cobertura de testes.]**
-
-  <br>
-</details>
-
----
-
-## 03 - Crie endpoint para cadastrar produtos
+## 02 - Endpoint para cadastrar produtos
 
 - O endpoint deve ser acessível através do caminho (`/products`);
 - Os produtos enviados devem ser salvos na tabela `products` do banco de dados;
@@ -179,31 +162,6 @@ O plugin do ESLint devem ser instalados no Virtual Studio Code:
         "id": 4,
         "name": "ProdutoX"
       }
-    ```
-
-  <br>
-</details>
-
----
-
-## 04 - Crie validações para produtos
-
-- O endpoint de produtos deve ser acessível através do caminho (`/products`);
-- Lembre-se, o banco de dados não deve ser acessado nas validações iniciais do corpo da requisição;
-
-<details close>
-  <summary>Os seguintes pontos serão avaliados</summary>
-
-  - **[Será validado que não é possível realizar operações em um produto sem o campo `name`]**
-    - Se a requisição não tiver o campo `name`, o resultado retornado deverá ser conforme exibido abaixo, com um status http `400` :
-    ```json
-      { "message": "\"name\" is required" }
-    ```
-
-  - **[Será validado que não é possível realizar operações em um produto com o campo `name` menor que 5 caracteres]**
-    - Se a requisição não tiver `name` com pelo menos 5 caracteres, o resultado retornado deverá ser conforme exibido abaixo, com um status http `422`
-    ```json
-      { "message": "\"name\" length must be at least 5 characters long" }
     ```
 
   <br>
